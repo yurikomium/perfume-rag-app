@@ -100,7 +100,7 @@ export default function PerfumeCard({ perfume, query }: PerfumeCardProps) {
             onClick={generateRecommendation}
             disabled={isGenerating}
           >
-            {isGenerating ? "生成中..." : "おすすめポイントを生成"}
+            {isGenerating ? "生成中..." : "おすすめポイントを知る"}
           </button>
         )}
       </div>
