@@ -1,1 +1,1 @@
-# perfume-rag-app
+# perfume-app

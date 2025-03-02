@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-text: #3c3929;
+    --color-text-light: #6b6557;
+    --color-background: #f1efe7;
+    --color-primary: #d97857;
+    --color-secondary: #57b8d9;
+    --color-text-primary: #c96443;
+    --color-text-secondary: #369bbc;
+  }
+
+  body {
+    @apply bg-[var(--color-background)] text-[var(--color-text)];
+  }
+}
+
+/* プライマリーボタンのスタイル */
+.btn-primary {
+  @apply px-6 py-2 bg-[var(--color-primary)] text-white rounded-lg 
+    hover:bg-[#C26746] disabled:opacity-50 transition-colors duration-200;
+}
+
+/* セカンダリーボタンのスタイル */
+.btn-secondary {
+  @apply px-4 py-2 bg-[var(--color-secondary)] text-white rounded 
+    hover:bg-[#4099B5] disabled:opacity-50 transition-colors duration-200;
+}
+
+/* 薄いテキスト用のユーティリティクラス */
+.text-light {
+  @apply text-[var(--color-text-light)];
+}
