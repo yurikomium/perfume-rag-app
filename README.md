@@ -2,7 +2,6 @@
 
 このアプリケーションは香水に関する情報を検索・閲覧できる RAG（Retrieval Augmented Generation）システムです。
 
-## 動作
 https://github.com/user-attachments/assets/4c228f34-02c1-441d-91b4-1d30b3033029
 
 1. 検索条件を入れて「探す」をクリック
