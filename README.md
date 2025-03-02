@@ -1,4 +1,4 @@
-# Perfume RAG Application
+# 香水RAGアプリケーション
 
 このアプリケーションは香水に関する情報を検索・閲覧できる RAG（Retrieval Augmented Generation）システムです。
 
