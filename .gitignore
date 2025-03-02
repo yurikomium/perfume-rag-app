@@ -41,4 +41,4 @@ yarn-error.log*
 next-env.d.ts
 
 # data directory
-/src/data
+/src/data/secret

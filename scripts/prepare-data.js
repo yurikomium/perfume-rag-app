@@ -1,21 +1,13 @@
-const fs = require("fs");
-const path = require("path");
+import fs from "fs";
+import path from "path";
 
 // 香水データを読み込む
 const rawData = JSON.parse(
-  fs.readFileSync(
-    path.join(__dirname, "../src/data/perfume_data_small.json"),
-    "utf8"
-  )
+  fs.readFileSync(path.join(__dirname, "../src/data/example.json"), "utf8")
 );
 
 // テキスト形式に変換する関数
 function convertToText(perfume) {
-  const notesArray = (notes) => {
-    if (!notes || !Array.isArray(notes)) return "";
-    return notes.join(", ");
-  };
-
   return `名前: ${perfume.names.japanese}
 ブランド: ${perfume.brand}
 コンセプト: ${perfume.concept}
